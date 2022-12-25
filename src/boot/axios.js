@@ -8,7 +8,8 @@ import axios from 'axios'
 // "export default () => {}" function below (which runs individually
 // for each client)
 // const RESTURL = "http://172.26.117.16:3000/api"
-const RESTURL = "http://localhost:3003/"
+// const RESTURL = "http://localhost:3003/"
+const RESTURL = "https://gross-back.vercel.app/"
 const api = axios.create({ 
   baseURL: RESTURL,
   headers:{ "Content-type" : "application/json" }

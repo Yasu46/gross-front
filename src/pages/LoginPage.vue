@@ -48,6 +48,9 @@
           </div>
         </q-form>
       </q-card-section>
+      <div class="text-cyan-8">To admin page</div>
+      <div>username: admin</div>
+      <div>password: 111111</div>
     </q-card>
   </q-page>
 </template>
